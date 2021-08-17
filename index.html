@@ -1,67 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <section class="block">
-      <header class="block__header">
-        <h2>What our Customers Are Saying</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae,
-          perspiciatis!
-        </p>
-      </header>
-      <div class="container">
-        <div class="card testimonial">
-          <div class="grid grid--1x2">
-            <div class="testimonial__image">
-              <img
-                class="testimonial__image"
-                src="images/testimonial.jpg"
-                alt="A happy, smiling customer"
-              />
-              <span class="icon-container icon-container--accent">
-                <svg class="icon icon--white icon--small">
-                  <use xlink:href="images/sprite.svg#quotes"></use>
-                </svg>
-              </span>
-            </div>
-            <blockquote class="quote">
-              <p class="quote__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad non
-                reprehenderit ab possimus sed. Expedita amet assumenda
-                doloremque nulla a.
-              </p>
-              <footer>
-                <div class="media">
-                  <div class="media__image">
-                    <svg class="icon icon--primary quote__line">
-                      <use xlink:href="images/sprite.svg#line"></use>
-                    </svg>
-                  </div>
-                  <div class="media__body">
-                    <h3 class="media__title quote__author">John Smith</h3>
-                    <p class="quote__organization">ABC Company</p>
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <footer class="block block--dark footer">
+    <div class="container grid footer__sections">
+      <section class="collapsible collapsible--expanded footer__section">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Products</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Website Hosting</a></li>
+            <li><a href="#">Free Automated Wordpress</a></li>
+            <li><a href="#">Migrations</a></li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <script src="js/main.js"></script>
-  </body>
+      </section>
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Company</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Support</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Knowledge Base</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Domains</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Domain Checker</a></li>
+            <li><a href="#">Domain Transfer</a></li>
+            <li><a href="#">Free Domain</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer__brand">
+        <img src="images/logo.svg" alt="">
+        <p class="footer__copyright">&copy Copyright 2021 Mosh Hamedani</p>
+      </section>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
