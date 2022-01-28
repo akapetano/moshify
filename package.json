@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akapetano/Mos.git"
+    "url": "https://github.com/akapetano/moshify.git"
   },
   "bugs": {
-    "url": "https://github.com/akapetano/Mos/issues"
+    "url": "https://github.com/akapetano/moshify/issues"
   },
-  "homepage": "https://github.com/akapetano/Mos#readme"
+  "homepage": "https://github.com/akapetano/moshify#readme"
 }
